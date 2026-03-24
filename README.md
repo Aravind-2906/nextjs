@@ -1,6 +1,5 @@
 # Next.js Course App
 
-This is a simple Next.js project created as part of internship practice.
 
 ## Features
 
