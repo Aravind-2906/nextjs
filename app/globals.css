@@ -1,0 +1,76 @@
+/* Reset */
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Main Content Area */
+.main {
+  flex: 1;
+}
+
+/* Container */
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  gap: 25px;
+  padding: 15px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: blue;
+  font-size: 18px;
+}
+
+/* Page Content */
+.content {
+  margin-top: 30px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+/* Footer */
+.footer {
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Page Styles */
+.page {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Different Page Colors */
+.home {
+  background-color: #e3f2fd;
+}
+
+.course {
+  background-color: #e8f5e9;
+}
+
+.contact {
+  background-color: #ffebee;
+}
